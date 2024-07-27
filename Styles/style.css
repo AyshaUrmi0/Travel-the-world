@@ -57,7 +57,7 @@ nav bar style */
 
 .nav-option{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     gap: 3rem;
 
 }
@@ -69,3 +69,4 @@ nav bar style */
 p{
     cursor: zoom-in;
 }
+
