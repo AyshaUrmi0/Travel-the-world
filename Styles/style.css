@@ -61,7 +61,7 @@ nav bar style */
     gap: 3rem;
 
 }
- p,li{
+ p{
     font-weight: normal;
     line-height: normal;
     text-align: center;
@@ -145,5 +145,31 @@ input,select{
     border:none;
     cursor: pointer;
     color: #FFF;
+    font-weight: bold;
 
 }
+
+.popular-section{
+    display: grid;
+   grid-template-columns: 1fr 1fr;
+   gap:3rem;
+}
+.popular-section-text{
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+    justify-content: space-between;
+
+}
+
+.popular-section-text p,ul{
+     color: rgba(19, 19, 24, 0.70);
+}
+
+.popular-section-text ul{
+    padding-left: 30px;
+}
+.popular-section-text h3{
+   text-align: left;
+}
+
