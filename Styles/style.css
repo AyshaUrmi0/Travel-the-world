@@ -210,9 +210,76 @@ Your destination */
     font-size: 28px;
    transform: translate(-50%,-50%);
 
+ }
+/* 
+
+why us section */
+
+.why-choose-us h2 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    text-align: center;
 }
 
+.why-choose-us p {
+    font-size: 1rem;
+    margin-bottom: 40px;
+    color: #666;
+}
 
+.grid-container {
+        
+        padding: 20px;
+        border-radius: 8px;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .feature-card img {
+        max-width: 60px;
+        margin-bottom: 10px;
+    }
+    
+    .feature-card h3 {
+        font-size: 1.5rem;
+        margin-bottom: 10px;
+
+    }
+    
+    .feature-card p {
+        font-size: 1rem;
+        color: #666;
+    }
+
+    .feature-card p,h3{
+        text-align: left;
+
+    }
+    .feature-card{
+        padding: 2rem;
+    }
+
+    .grid-container{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+    }
+    .hotel{
+        border-radius: 16px;
+border: 1px solid rgba(251, 181, 99, 0.20);
+background: rgba(243, 168, 84, 0.05);
+    }
+
+    .map{
+        border-radius: 16px;
+border: 1px solid rgba(251, 181, 99, 0.20);
+background: rgba(88, 164, 230, 0.05);
+    }
+    .price{
+        border-radius: 16px;
+border: 1px solid rgba(251, 181, 99, 0.20);
+background: rgba(182, 218, 50, 0.05);
+
+    }
 
 
 
