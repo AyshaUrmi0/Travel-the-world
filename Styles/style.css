@@ -24,7 +24,7 @@ h3{
 
 .container{
     width: 90%;
-    margin: 5rem auto;
+    margin: 3rem auto;
     border-radius: 1 rem;
    
 
@@ -65,7 +65,8 @@ nav bar style */
     font-weight: normal;
     line-height: normal;
     text-align: center;
-    color:  rgba(19, 19, 24, 0.70);
+   
+    color: #5A5A5D;
 
 }
 
@@ -93,6 +94,7 @@ nav bar style */
     color: #FFF;
     font-size: 4 rem;
     font-weight: bold;
+    text-align: center;
 
 }
 .explore-container p{
@@ -279,8 +281,37 @@ background: rgba(88, 164, 230, 0.05);
 border: 1px solid rgba(251, 181, 99, 0.20);
 background: rgba(182, 218, 50, 0.05);
 
+
+
+
     }
 
+    /* footer */
+    .footer{
+        background: rgba(19, 19, 24, 0.05);
+        width: 100%;
+        height: 25rem;
+        padding: 7rem;
+        
+    }
+    .logo-footer,.paragrph,.social-icon{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+      
+    }
+    .social-icon{
+        gap: 30px;
+        margin-top: 20px;
+
+    }
+
+    .custom-hr {
+        border: none; 
+        height: 1px; 
+        background-color: #000; 
+        margin: 20px 0; 
+    }
 
 
 
