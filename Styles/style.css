@@ -87,7 +87,6 @@ nav bar style */
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
     border-radius: 16px;
     height: 31.8rem;
     padding: 7rem;
@@ -352,8 +351,9 @@ background: rgba(182, 218, 50, 0.05);
         font-size: 26px;
 
        }
-       .explore-your-travel p{
-        width: 60%;
+       .explore-your-travel {
+        width: 100%;
+        padding: 10px 10px;
        }
 
        .popular-section,.row-1,.row-2,.row-3,.grid-container{
@@ -366,9 +366,16 @@ background: rgba(182, 218, 50, 0.05);
        .bar i{
         font-size: 26px;
        }
+         .popular-section img{
+          height: 100%;
+         }
 
+       
       
     }
+
+      
+    
 
 
 
