@@ -302,11 +302,15 @@ background: rgba(182, 218, 50, 0.05);
         padding: 7rem;
         
     }
-    .logo-footer,.paragrph,.social-icon{
+    .logo-footer,.social-icon{
        display: flex;
        justify-content: center;
        align-items: center;
       
+    }
+    .paragraph{
+        text-align: center;
+        margin-top: 20px;
     }
     .social-icon{
         gap: 30px;
